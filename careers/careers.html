@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang>
+<link href="careers.css" rel="stylesheet"> 
+<head>
+ <body>
+  <div>
+   <div class="container">
+    <div>
+      <img class="image1" src="../logo.png" alt="logoimage" >
+    </div> 
+      <div>
+        <ul>
+          <li><a class="links" href="../home/home.html">HOME</a></li>
+          <li><a class="links" href="../about/about-us.html">ABOUT</a></li>
+          <li><a class="links" href="#news">FAQ</a></li>
+          <li><a class="links" href="../services/Our-services.html">SERVICES</a></li>
+          <li><a  class="links" href="../blog/blog.html">BLOG</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">CONTACT</a>
+              <div class="dropdown-content">
+                <a class= "dropdownlinks" href="../contact-us/contact-us.html">CONTACT US</a>
+                <a class= "dropdownlinks" href="../careers/careers.html">CAREERS</a>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" >MY ACCOUNT</a>
+              <div class="dropdown-content">
+                <a href="../login/login.html">LOGIN</a>
+                <a href="../register/register.html">REGISTER</a>
+              </div>
+          </li>
+        </ul>
+      </div> 
+    </div>
+  </div>
+  <div class="container-one">
+    <div class="title-and-subtitle">
+      <p class="paragraph1">Careers</p>
+      <p class="paragraph2">Find you perfect job.</p>
+    </div>
+  </div>
+  <div class="job-aplication">
+    <div class="title-two">
+      <p class="p3">Job application</p>
+    </div>
+    <div class="personal-data">
+      <form action="/action_page.php">
+        <div class="star">*</div>
+          <label for="fname">What's your Full Name? (required)</label>
+          <input type="text" id="fquestion" name="firstquestion" placeholder="eg.John Doe">
+          <div class="star">*</div>
+          <label for="lname">Your Email Address (required)</label>
+          <input type="text" id="lquestion" name="lastquestion" placeholder="eg.someone@gmail.com">
+          <div class="star">*</div>
+          <label for="subject">Phone (required)</label>
+          <input type="text" id="pnumber" name="phonenumber" placeholder="eg.+381 60 333 555">
+      </form>
+    </div>
+    <div class="title-three">
+      <p class="p4">Screening Questions:</p>
+    </div>
+    <div class="Screening-Questions">
+      <form action="/action_page.php">
+     <div >   
+      <p>Can you work in Seattle and Bellevue?</p>
+        <div class="container-yes">
+         <input class="color-green" type="radio" id="Yes-or-No" name="answer1" value="Answer">
+         <label for="answer-yes">Yes</label>
+        </div> 
+        <div class="container-no">
+         <input class="color-green" type="radio" id="Yes-or-No" name="answer1" value="Answer">
+         <label for="answer-no">No</label>
+        </div>
+     </div>
+     <div>
+      <p>Do you have reliable transportation?</p> 
+      <div class="container-yes">
+        <input class="color-green" type="radio" id="Yes-or-No" name="answer2" value="Answer">
+        <label for="answer-yes">Yes</label>
+       </div> 
+       <div class="container-no">
+        <input class="color-green" type="radio" id="Yes-or-No" name="answer2" value="Answer">
+        <label for="answer-no">No</label>
+       </div>
+     </div>
+     <div>
+      <p>Do you have prior professional home cleaning experience?</p>
+        <div class="container-yes1">
+        <input class="color-green" type="radio" id="Yes-or-No" name="answer3" value="Answer">
+        <label for="answer-yes">Yes</label>
+       </div> 
+       <div class="container-no">
+        <input class="color-green" type="radio" id="Yes-or-No" name="answer3" value="Answer">
+        <label for="answer-no">No</label>
+       </div>
+    </div>
+    <div class="select-file">
+      <div class="star1">*</div>
+      <label class="label1" for="answer-no">Resume (required)</label>
+      <input id="button1" type="submit" value="SELECT FILE">
+    </div>
+    </form>
+    </div>
+    <div class="button-submit">
+      <input id="button2" type="submit" value="SUBMIT APLICATION">
+    </div>
+  </div>
+  <embed type="text/html" src="../footer/footer.html" style="width: 100%; height: 600px;" >
+ </body>
+</html>
