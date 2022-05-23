@@ -1,7 +1,12 @@
 
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'), url(../fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+
 body {
     margin:0;
-    font-family: Monsterrat-Medium, Arial, sens-serif;
+    font-family: "Montserrat-Medium", "Arial", sans-serif;
   }
   
   .image22 {

@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local('Montserrat-Medium'), url(../../fonts/Montserrat/Montserrat-Medium.ttf) format('truetype');
+}
+
 body {
   margin:0;
-  font-family: Monsterrat-Medium, Arial, sens-serif;
+  font-family: "Montserrat-Medium", "Arial", sans-serif;
 }
 
 ul {
@@ -9,6 +14,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
+  margin-left: 90px;
 }
 
 li {
@@ -23,7 +29,7 @@ li {
   padding: 14px 16px;
   text-decoration: none;
   border-bottom: 5px solid transparent;
-  font-size: 22px;
+  font-size: 14px;
 }
 
 li a .dropdownlinks{
@@ -84,6 +90,7 @@ li.dropdown {
   padding: 30px;
   width: 200px;
   opacity: 1;
+  margin-left: 90px;
 }
 
 .p1 {
