@@ -404,6 +404,7 @@ img {
   margin: 10px;
   background-color: #F3F7F4;
   padding: 20px;
+  position: relative;
 }
 
 .p-1 {
@@ -447,4 +448,10 @@ img {
 .choose-us {
   font-size: 36px;
   text-align: center;
+}
+
+.icon-car {
+  position: absolute;
+  top: 60px;
+  left: 40px; 
 }
