@@ -355,3 +355,96 @@ img {
   opacity: 1;
 }
 
+.bigg-container {
+  width: 100%;
+  height: 920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-grupe {
+  width: 1000px;
+  height: 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  
+}
+
+.card-grupe2 {
+  width: 1050px;
+  height: 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 125px;
+  z-index: 1;
+}
+
+.pictures {
+  background-image: url(../why-us.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 2;
+}
+
+.card-1 {
+  width: 380px;
+  height: 340px;
+  margin: 10px;
+  background-color: #F3F7F4;
+  padding: 20px;
+}
+
+.p-1 {
+  font-size: 24px;
+  margin-left: 75px;
+  margin-bottom: 80px;
+  color: rgb(69, 141, 69);
+}
+
+.p-2 {
+  font-size: 14px;
+  margin-left: 75px;
+  margin-bottom: 80px;
+}
+
+.p-3 {
+  font-size: 14px;
+  color: black;
+  margin-left: 75px;
+}
+
+.p-11 {
+  font-size: 24px;
+  margin-left: 75px;
+  margin-bottom: 110px;
+  color: #4CAF50;
+}
+
+.p-22 {
+  font-size: 14px;
+  margin-left: 75px;
+  margin-bottom: 80px;
+}
+
+.p-33 {
+  font-size: 14px;
+  color: black;
+  margin-left: 75px;
+}
+
+.choose-us {
+  font-size: 36px;
+  text-align: center;
+}
