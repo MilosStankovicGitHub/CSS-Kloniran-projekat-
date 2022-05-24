@@ -176,6 +176,7 @@ input[type=submit]:hover {
   justify-content: center;
   margin: auto;
   margin-top: 15px;
+  background-color: #74B185;
 }
 
 h1 {
