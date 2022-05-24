@@ -48,7 +48,7 @@ li a .dropdownlinks:hover {
 
 .links:hover, .dropdown:hover .dropbtn {
   background-color: rgb(255, 254, 254);
-  border-bottom: 5px solid rgb(8, 143, 8);
+  border-bottom: 5px solid #74B185;
 }
   
 li.dropdown {
@@ -147,7 +147,7 @@ h1 {
 .greencolor{
   width: 273px;
   height: 56px;
-  background-color: rgb(69, 141, 69);
+  background-color: #74B185;
   margin-top: -30px;
   position: relative;
   left: 140px;

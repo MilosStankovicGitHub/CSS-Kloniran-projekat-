@@ -48,7 +48,7 @@ li a .dropdownlinks:hover {
 
  .links:hover, .dropdown:hover .dropbtn {
   background-color: rgb(255, 254, 254);
-  border-bottom: 5px solid rgb(8, 143, 8);
+  border-bottom: 5px solid #74B185;
 }
 
 li.dropdown {
@@ -111,7 +111,7 @@ img {
 }
 
 .button2 {
-  background-color: #4CAF50;
+  background-color: #74B185;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -193,7 +193,7 @@ img {
   width: 128px;
   height: 128px;
   border-radius:  50%;
-  border: 2px solid rgb(134, 206, 1);
+  border: 2px solid #74B185;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,7 +211,7 @@ img {
 
 .paragraph {
   font-size: 18px;
-  color: rgb(80, 158, 8);
+  color: #74B185;
 }
 
 .paragraph2 {
@@ -276,7 +276,7 @@ img {
 
 .paragraph3 {
   font-size: 18px;
-  color: rgb(69, 134, 8);
+  color: #74B185;
   font-weight: bold;
 }
 
@@ -305,7 +305,7 @@ img {
 /* End cards section */
 
 .button1 {
-  background-color: #4CAF50;
+  background-color: #74B185;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -351,7 +351,7 @@ img {
 .greencolor{
   width: 273px;
   height: 56px;
-  background-color: rgb(69, 141, 69);
+  background-color: #74B185;
   margin-top: -30px;
   position: relative;
   left: 140px;
@@ -418,7 +418,7 @@ img {
   font-size: 24px;
   margin-left: 75px;
   margin-bottom: 80px;
-  color: rgb(69, 141, 69);
+  color: #74B185;
 }
 
 .p-2 {
@@ -437,7 +437,7 @@ img {
   font-size: 24px;
   margin-left: 75px;
   margin-bottom: 75px;
-  color: #4CAF50;
+  color: ##74B185;
 }
 
 .p-22 {
@@ -456,7 +456,7 @@ img {
   font-size: 24px;
   margin-left: 75px;
   margin-bottom: 80px;
-  color: rgb(69, 141, 69);
+  color: #74B185;
 }
 
 .p-32 {
@@ -480,6 +480,47 @@ img {
   position: absolute;
   top: 60px;
   left: 40px; 
+}
+
+.paragraph-keeping-one {
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.paragraph-keeping-two {
+  text-align: center;
+  font-size: 14px;
+  color: #6d6c6c;
+  margin-bottom: 15px;
+}
+
+.button-three {
+  background-color: #74B185;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  text-align-last: center;
+}
+
+.button-holder {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.slide-circle {
+  margin-bottom: 50px;
 }
 
 .mySlides {
@@ -554,6 +595,5 @@ img {
   to {opacity: 1}
 }
 
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
+

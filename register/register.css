@@ -48,7 +48,7 @@ li a .dropdownlinks:hover {
 
 .links:hover, .dropdown:hover .dropbtn {
   background-color: rgb(255, 254, 254);
-  border-bottom: 5px solid rgb(8, 143, 8);
+  border-bottom: 5px solid #74B185;;
 }
 
 li.dropdown {
@@ -204,15 +204,16 @@ input[type=submit]:hover {
   justify-content: center;
   margin: auto;
   margin-top: 15px;
+  background-color: #74B185;;  
 }
 
 .greentext:link  {
   text-decoration: none;
-  color: #039b35;
+  color: #74B185;
 }
 
 .greentext:visited  {
-  color: #039b35;
+  color: #74B185;;
 }  
 
 .greentext:hover {  

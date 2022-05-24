@@ -68,23 +68,23 @@ body {
     width: 48px;
     height: 48px;
     border-radius:  50%;
-    border: 1px solid rgb(23, 133, 9);
+    border: 1px solid #74B185;
     display: flex;
     align-items: center;
     justify-content: center;
     transition-duration: 500ms;
-    color: #0e7c00;
+    color: #74B185;
   }
   
   .circle-first:hover {
-    background-color: #0e7c00;
+    background-color: #74B185;
     transition-duration: 500ms;
     color: #fffefe;
   }
   
   .maker {
     margin-right: 1px;
-    color: #039b35;
+    color: #74B185;
     line-height:1; 
     font-size: 18px;
     display: flex;
