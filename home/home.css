@@ -538,6 +538,48 @@ img {
   margin: auto;
 }
 
+.p-customers-one {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.p-customers-two {
+  font-size: 14px;
+  text-align: center;
+  color: #717171;
+  
+}
+
+.customers-container {
+  width: 100%;
+  height: 390px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.customers-card {
+ width: 350px;
+ height: 370px;
+ background-color: #F3F7F4;
+ margin: 10px;
+}
+
+.text-card-one {
+  font-size: 14px;
+  line-height: 1.25rem;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+
+.text-card-two {
+font-size: 18px;
+margin: 30px;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
